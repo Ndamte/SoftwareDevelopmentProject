@@ -1,0 +1,125 @@
+<mxfile host="65bd71144e">
+    <diagram id="rfoOtCKOJGUQDgggRovy" name="Page-1">
+        <mxGraphModel dx="1358" dy="622" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="20" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;login&lt;br&gt;page&amp;nbsp;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="102" y="40" width="100" height="442" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="5">
+                    <mxGeometry x="45" y="42" width="10" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="244" y="40" width="100" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6">
+                    <mxGeometry x="45" y="76" width="10" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="emp = new PartTimeEmployee" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="6">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="55" y="283" as="sourcePoint"/>
+                        <mxPoint x="593" y="283" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Employee" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="422" y="37" width="138" height="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="addEmployee(employeeData)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="10">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="-120" y="128" as="sourcePoint"/>
+                        <mxPoint x="62" y="128" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="10">
+                    <mxGeometry x="62" y="116" width="10" height="18" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="emp = new FullTimeEmployee" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="10">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="-116" y="169" as="sourcePoint"/>
+                        <mxPoint x="244" y="169" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="login()" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=10;" parent="1" edge="1">
+                    <mxGeometry x="-0.3913" width="80" relative="1" as="geometry">
+                        <mxPoint x="40" y="91" as="sourcePoint"/>
+                        <mxPoint x="148" y="91" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="FT Employee" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="619" y="37" width="100" height="444" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="24">
+                    <mxGeometry x="45" y="152" width="10" height="37" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="PT Employee" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="768" y="38" width="149" height="441" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="25">
+                    <mxGeometry x="69.5" y="278" width="10" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="INSERT employeeData" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="25">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="-96" y="180.01" as="sourcePoint"/>
+                        <mxPoint x="261.5" y="180.01" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="985" y="35" width="100" height="444" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="26">
+                    <mxGeometry x="45" y="71" width="10" height="271" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="fail/succeed" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="51" y="96" as="sourcePoint"/>
+                        <mxPoint x="-685.5" y="96" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="authenticate" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.4;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="28">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="162" y="111" as="sourcePoint"/>
+                        <mxPoint x="1020" y="111" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="addEmployee(employeeData)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="40" y="151" as="sourcePoint"/>
+                        <mxPoint x="287" y="151" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="return new FT employee" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.55;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1019" y="249" as="sourcePoint"/>
+                        <mxPoint x="304.5" y="249.97699999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="INSERT employeeData" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="852" y="342" as="sourcePoint"/>
+                        <mxPoint x="1027" y="342" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="return new PT employee" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.3;exitY=0.892;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1027" y="373.73199999999997" as="sourcePoint"/>
+                        <mxPoint x="302" y="378" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="if full time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="302" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="if part time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="306" y="271.5" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;width=34;height=22;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="253" y="183" width="805" height="207" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
