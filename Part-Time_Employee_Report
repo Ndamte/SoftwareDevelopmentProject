@@ -1,0 +1,25 @@
+PART-TIME EMPLOYEE PAYROLL REPORT
+Name= Alex Smith  Title=Customer Service Rep alex.smith@example.com
+        EMP ID  PAY DATE        HOURS   RATE    GROSS   Federal FedMed  FedSS   State
+        2001    2023-09-30      80      20.00   1600.00 480.00  19.20   76.80   153.60
+        2001    2023-10-31      80      20.00   1600.00 480.00  19.20   76.80   153.60
+
+Name= Brittany Jones  Title=Web Designer brittany.jones@example.com
+        EMP ID  PAY DATE        HOURS   RATE    GROSS   Federal FedMed  FedSS   State
+        2002    2023-09-30      60      25.00   1500.00 450.00  18.00   72.00   144.00
+        2002    2023-10-31      60      25.00   1500.00 450.00  18.00   72.00   144.00
+
+Name= Charles Green  Title=Graphic Artist charles.green@example.com
+        EMP ID  PAY DATE        HOURS   RATE    GROSS   Federal FedMed  FedSS   State
+        2003    2023-09-30      90      18.00   1620.00 486.00  19.44   77.76   155.52
+        2003    2023-10-31      90      18.00   1620.00 486.00  19.44   77.76   155.52
+
+Name= Dana White  Title=Junior Developer dana.white@example.com
+        EMP ID  PAY DATE        HOURS   RATE    GROSS   Federal FedMed  FedSS   State
+        2004    2023-09-30      85      22.00   1870.00 561.00  22.44   89.76   179.52
+        2004    2023-10-31      85      22.00   1870.00 561.00  22.44   89.76   179.52
+
+Name= Elliot King  Title=Sales Consultant elliot.king@example.com
+        EMP ID  PAY DATE        HOURS   RATE    GROSS   Federal FedMed  FedSS   State
+        2005    2023-09-30      70      15.00   1050.00 315.00  12.60   50.40   100.80
+        2005    2023-10-31      70      15.00   1050.00 315.00  12.60   50.40   100.80
