@@ -1,0 +1,25 @@
+FULL-TIME EMPLOYEE PAYROLL REPORT
+Name= Alice Anderson  Title=Senior Software Developer alice.anderson@example.com
+        EMP ID  PAY DATE        GROSS   Federal FedMed  FedSS   State   401K
+        1001    2023-09-30      2500.00 750.00  30.00   120.00  240.00  50.00
+        1001    2023-10-31      2500.00 750.00  30.00   120.00  240.00  50.00
+
+Name= Bob Brown  Title=Project Manager bob.brown@example.com
+        EMP ID  PAY DATE        GROSS   Federal FedMed  FedSS   State   401K
+        1002    2023-09-30      3200.00 960.00  38.40   153.60  307.20  64.00
+        1002    2023-10-31      3200.00 960.00  38.40   153.60  307.20  64.00
+
+Name= Carol Clark  Title=IT Specialist carol.clark@example.com
+        EMP ID  PAY DATE        GROSS   Federal FedMed  FedSS   State   401K
+        1003    2023-09-30      2800.00 840.00  33.60   134.40  268.80  56.00
+        1003    2023-10-31      2800.00 840.00  33.60   134.40  268.80  56.00
+
+Name= David Davis  Title=Database Administrator david.davis@example.com
+        EMP ID  PAY DATE        GROSS   Federal FedMed  FedSS   State   401K
+        1004    2023-09-30      2200.00 660.00  26.40   105.60  211.20  44.00
+        1004    2023-10-31      2200.00 660.00  26.40   105.60  211.20  44.00
+
+Name= Eve Evans  Title=Chief Technology Officer eve.evans@example.com
+        EMP ID  PAY DATE        GROSS   Federal FedMed  FedSS   State   401K
+        1005    2023-09-30      5000.00 1500.00 60.00   240.00  480.00  100.00
+        1005    2023-10-31      5000.00 1500.00 60.00   240.00  480.00  100.00
